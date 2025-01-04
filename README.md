@@ -1,6 +1,6 @@
-# Project Name : Behavioral risk factor analysis 
+# Title : Behavioral risk factor analysis 
 
-# Project Description : 
+# Description : 
 Behavioral risk factor analysis based on preventive health practices and risk behaviors in the adult population
 
 # Abstract
