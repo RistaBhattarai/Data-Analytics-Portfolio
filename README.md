@@ -1,4 +1,4 @@
-Portfolio showcasing Data Analysis and Machine Learning Projects
+# Portfolio showcasing Data Analysis and Machine Learning Projects
 
 # Microsoft Certified 
     [Microsoft Certified: Azure AI Fundamentals]
