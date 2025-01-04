@@ -1,11 +1,11 @@
-#Project Name
-
+#Project Name : 
 Behavioral risk factor analysis 
 
-#Project Description
+#Project Description : 
 Behavioral risk factor analysis based on preventive health practices and risk behaviors in the adult population
 
 #Abstract
+
 Behavioral risk factor analysis helps us to understand standardized, state-specific data on preventative health measures and risk behaviors connected to chronic illnesses, accidents, and preventable infectious infections in the adult population. Factors assessed include general health, physical health, mental health, exercise, asthma, heart disease, smoking, alcohol intake, tobacco use, health care coverage, HIV AIDS, physical activity, and fruit and vegetable consumption and similarly.
 
 This analysis will be highly useful to understand the preventive health practices and risk behaviors that are linked to chronic diseases, injuries, and preventable infectious diseases in the adult population. This analysis will provide a wide range of opportunities to explore different factors that affect our health on a day-to-day basis. Also, we will be able to uncover various factors like use of tobacco, health care coverage, HIV/AIDS knowledge, or prevention among adults. This study will focus on getting insights on the physical activity and balanced diet of an adult like fruit and vegetable consumption that contribute to overall sound health. Hence, at the end of this analysis, we will be able to understand the risks associated with the behavior of an adult.
