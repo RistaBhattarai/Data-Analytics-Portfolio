@@ -1,9 +1,9 @@
 # Title : Behavioral Risk Factor Analysis 
 
-# Description : 
+# Goal : 
 Behavioral risk factor analysis based on preventive health practices and risk behaviors in the adult population
 
-# Abstract
+# Description
 
 Behavioral risk factor analysis helps us to understand standardized, state-specific data on preventative health measures and risk behaviors connected to chronic illnesses, accidents, and preventable infectious infections in the adult population. Factors assessed include general health, physical health, mental health, exercise, asthma, heart disease, smoking, alcohol intake, tobacco use, health care coverage, HIV AIDS, physical activity, and fruit and vegetable consumption and similarly.
 
