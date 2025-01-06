@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color:  #308d90;
+    background-color: #308d90;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -87,7 +87,7 @@ p, ul li {
 }
 
 .skill-box:hover {
-      background-color: #c3dcdd;
+    background-color: #c3dcdd;
 }
 
 .skill-box h3 {
@@ -154,21 +154,54 @@ footer {
     width: 100%;
 }
 
-/* Default styles */
-body {
-  font-size: 16px;
+/* Responsive Design */
+
+/* Mobile Styles (default for small screens) */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for small screens */
+    }
+
+    .three-columns {
+        grid-template-columns: 1fr; /* Stack all columns */
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
 }
 
-/* For tablets (768px and smaller) */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 1023px) {
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+    }
+
+    .three-columns {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
 }
 
-/* For mobile phones (480px and smaller) */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr); /* Restore 4 columns */
+    }
+
+    .three-columns {
+        grid-template-columns: repeat(3, 1fr); /* Restore 3 columns */
+    }
 }
