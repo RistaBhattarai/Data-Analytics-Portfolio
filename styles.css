@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f7fa;
+    background-color:  #308d90;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -44,7 +44,7 @@ nav ul li a:hover {
 
 /* Box Styling for Sections */
 .box {
-    background-color: #ffffff;
+    background-color: #dfe8e4;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -79,11 +79,15 @@ p, ul li {
 }
 
 .skill-box {
-    background-color: #ffffff;
+    background-color: #dfe8e4;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.skill-box:hover {
+      background-color: #c3dcdd;
 }
 
 .skill-box h3 {
@@ -97,9 +101,23 @@ p, ul li {
     color: #777;
 }
 
+.three-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 /* Contact Section */
 .contact-box {
-    background-color: #ffffff;
+    text-align: center;
+    background-color: #dfe8e4;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
