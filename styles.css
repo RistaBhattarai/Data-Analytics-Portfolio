@@ -153,3 +153,22 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Default styles */
+body {
+  font-size: 16px;
+}
+
+/* For tablets (768px and smaller) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* For mobile phones (480px and smaller) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
