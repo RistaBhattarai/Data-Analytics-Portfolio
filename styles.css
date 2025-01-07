@@ -162,6 +162,10 @@ footer {
         padding: 10px;
     }
 
+    nav {
+        position: static; /* Make the nav scroll naturally */
+    }
+
     nav ul {
         flex-direction: column;
         align-items: center;
